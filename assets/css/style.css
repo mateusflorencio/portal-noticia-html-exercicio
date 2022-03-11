@@ -1,0 +1,92 @@
+body {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+
+.topo {
+    height: 30px;
+    background-color: #333;
+}
+
+.topoInt {
+    width: 100%;
+    max-width: 1000px;
+    
+    height: 30px;
+    margin: auto;
+}
+
+.topoleft {
+    float: left;
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.topoleft ul {
+    margin: 0%;
+    padding: 0%;
+    height: 30px;
+    list-style: none;
+}
+
+.topoleft li {
+    float: left;
+    padding-left: 5%;
+}
+
+.topoleft li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.topoleft li a:hover {
+    color: #4f84f8;
+    transition: 1s;
+}
+
+.topoleft li a:active {
+    color: #4f84f8;
+}
+
+.toporigth{
+    float: right;
+    width: 50%;
+    height: 28px;
+    margin-top: 2px;
+   
+   
+}
+
+.topoProcurar{
+    border: 0;
+    outline: 0;
+    height: 24px;
+    border-radius: 4px;
+
+}
+
+.toporigth a, input{
+    float: right;
+}
+
+.toporigth img{
+    margin-right: 3px;
+}
+
+.procurarBotao{
+    background-color: red;
+    width: 26px;
+    height: 26px;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+
+
+
+
+
